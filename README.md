@@ -1,4 +1,4 @@
-## getBlocksByDate
+## getBlock-etherScan.js
 
 A Node.js script retrieves the starting and ending Ethereum block numbers for a given UTC date by querying the Etherscan API endpoint `getblocknobytime`.
 
@@ -26,7 +26,7 @@ A Node.js script retrieves the starting and ending Ethereum block numbers for a 
 Run the script with three arguments: the start date, end date in `YYYY-MM-DD` format and your Etherscan API key.
 
 ```
-node getBlock-etherScan.js
+node script/getBlock-etherScan.js
 ```
 
 
